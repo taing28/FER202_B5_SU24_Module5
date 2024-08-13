@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-container {
+    background-image: url("./assets/images/background_fer2.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#header {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(30px);
+    padding: 0 16px;
+    align-items: center;
+}
+
+#header ul {
+    list-style: none;
+    text-align: right;
+    margin: 6px 0;
+}
+
+#header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#header ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+#header ul a:hover {
+    font-weight: 700;
+}
+
+/* Homepage */
+.sider {
+    background-color: aliceblue;
+    min-height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.menu {
+    background-color: rgb(248, 190, 114);
+}
+
+.menu_item {
+    border: 1px solid rgba(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.menu_item:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 200px;
+}

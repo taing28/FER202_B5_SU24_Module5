@@ -45,6 +45,12 @@
             "albumId": 2,
             "description": "Spring album",
             "userId": 1
+        },
+        {
+            "id":3,
+            "albumId":3,
+            "description":"Fall album",
+            "userId":1
         }
     ],
     "photos": [
@@ -53,8 +59,8 @@
             "photoId": 1,
             "title": "Photo 1",
             "image": {
-                "url": ["p1.png", "p1_1.png", "p1_2.png","p1_3.png"],
-                "thumbnail": "p11.png"
+                "url": ["https://dailylife.com/cdn/shop/articles/7-reasons-why-summer-is-good-for-your-body-feature-770X513.jpg?v=1698249448&width=2048", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNpIEE-ylHQ16v-LK6_47MPRL3B9C9HW0EDQ&s", "https://content.thriveglobal.com/wp-content/uploads/2020/06/summer.jpg","https://as1.ftcdn.net/v2/jpg/01/07/68/98/1000_F_107689864_aDRzRTm4JYIF0AP8uTcM46Lu8ayQ397U.jpg"],
+                "thumbnail": "https://dailylife.com/cdn/shop/articles/7-reasons-why-summer-is-good-for-your-body-feature-770X513.jpg?v=1698249448&width=2048"
             },
             "albumId": 1,
             "tags": [
@@ -68,8 +74,8 @@
             "photoId": 2,
             "title": "Photo 2",
             "image": {
-                "url": ["p2.png"],
-                "thumbnail": "p21.png"
+                "url": ["https://www.almanac.com/sites/default/files/users/AlmanacStaffArchive/sunflower-field-summer_full_width.jpg"],
+                "thumbnail": "https://wallpapers.com/images/featured/summer-pictures-nyv022soo0r5p1sq.jpg"
             },
             "albumId": 1,
             "tags": [
@@ -83,8 +89,8 @@
             "photoId": 3,
             "title": "Photo 3",
             "image": {
-                "url": ["p3.png"],
-                "thumbnail": "p31.png"
+                "url": ["https://static.scientificamerican.com/sciam/cache/file/642B68EB-E034-456C-AE81B2D92440BB27_source.jpg?w=600", "https://images2.minutemediacdn.com/image/upload/c_crop,w_2119,h_1191,x_0,y_152/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gnwne8bpf2ttr44mz9.jpg"],
+                "thumbnail": "https://static.scientificamerican.com/sciam/cache/file/642B68EB-E034-456C-AE81B2D92440BB27_source.jpg?w=600"
             },
             "albumId": 2,
             "tags": [
@@ -97,13 +103,28 @@
             "photoId": 4,
             "title": "Photo 4",
             "image": {
-                "url": ["p4.png"],
-                "thumbnail": "p41.png"
+                "url": ["https://t4.ftcdn.net/jpg/07/26/29/47/360_F_726294795_NqUKMyGvNDuGMdFtGVs4Js1JKKNM53Wh.jpg", "https://png.pngtree.com/thumb_back/fw800/background/20231224/pngtree-beautiful-spring-nature-wallpaper-image_15560300.jpg","https://media.istockphoto.com/id/1130739032/photo/areuse-river-in-the-neuch%C3%A2tel-jura-switzerland-panorama.jpg?s=612x612&w=0&k=20&c=zqxvpzPI04Py_cS2a7BjJSP0RVSgclZne4RrHOZfPzU="],
+                "thumbnail": "https://t4.ftcdn.net/jpg/07/26/29/47/360_F_726294795_NqUKMyGvNDuGMdFtGVs4Js1JKKNM53Wh.jpg"
             },
             "albumId": 2,
             "tags": [
                 "natural",
                 "hot"
+            ]
+        },
+        {
+            "id": 5,
+            "photoId": 5,
+            "title": "Photo 5",
+            "image": {
+                "url": ["https://assets.artifactuprising.com/assets/campaigns/2022/Q3/09-26+Fall+Photo+Tips+Blog/Dirk-Dallas_Fall-Photo-Tips_Falling-Leaves.jpg", "https://www.usnews.com/dims4/USNEWS/7cb1461/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F7c%2F6e%2Fdb7e01ca4577b6cb5154fb9bd0f7%2Fnew-main-image-adirondacks-new-york-stock.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jbKRJyEpWSXZqS1-mhWWmwa6CPvP75nUJQ&s"],
+                "thumbnail": "https://cdn.theatlantic.com/media/img/photo/2022/10/fall-air-images-season/a01_1244081372-1/original.jpg"
+            },
+            "albumId": 3,
+            "tags": [
+                "new",
+                "hot",
+                "cold"
             ]
         }
     ],
@@ -163,6 +184,13 @@
             "userId": 2,
             "text": "",
             "rate": 2
+        },
+        {
+            "id":9,
+            "photoId": 5,
+            "userId": 2,
+            "text": "Wonderful",
+            "rate": 5
         }
     ]
 }
