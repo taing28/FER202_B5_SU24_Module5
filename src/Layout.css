@@ -73,3 +73,24 @@ body {
     margin-top: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
+
+/* Login */
+.wrapper-login {
+    background-color: aliceblue;
+    max-width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.wrapper-login input {
+    width: 400px;
+}
+
+.wrapper-login button {
+    padding: 6px 16px;
+}
+
+.error {
+    color: red;
+}

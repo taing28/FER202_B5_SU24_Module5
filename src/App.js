@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./Layout.css";
 import Header from "./components/Header";
 import Homepage from "./components/Homepage";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
           <Routes>
             <Route path="/" element={<Homepage />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
       </Container>
     </BrowserRouter>
