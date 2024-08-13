@@ -8,7 +8,7 @@ export default function Homepage() {
     const [photos, setPhotos] = useState([]);
     const [currentAlbum, setCurrentAlbum] = useState("0");
     const [searchText, setSearchText] = useState("");
-    const [currentTag, setCurrentTag] = useState("All");
+    const [currentTag, setCurrentTag] = useState("all");
     const [filteredPhotos, setFilteredPhotos] = useState(photos);
 
     useEffect(() => {
@@ -31,12 +31,12 @@ export default function Homepage() {
 
     useEffect(() => {
         let tempPhotos = photos;
-        
-        if(searchText.length > 0) {
+
+        if (searchText.length > 0) {
             tempPhotos = tempPhotos.filter(ph => ph.title.toLowerCase().startsWith(searchText.toLowerCase()))
         }
 
-        if(currentTag !== "All") {
+        if (currentTag !== "all") {
             tempPhotos = tempPhotos.filter(ph => ph.tags.includes(currentTag));
         }
 
@@ -76,8 +76,8 @@ export default function Homepage() {
                             <Row>
                                 {filteredPhotos?.map(photo => (
                                     <Col key={photo.id} className="d-flex justify-content-center">
-                                        <Link to={`/photos/${photo.id}`} style={{textDecoration:'none'}}>
-                                            <Card style={{ width: '18rem', height: '18rem', marginTop: '16px' }}>
+                                        <Link to={`/photos/${photo.id}`} style={{ textDecoration: 'none' }}>
+                                            <Card className="photo-card">
                                                 <Card.Img variant="top" src={photo.image.thumbnail} />
                                                 <Card.Body>
                                                     <Card.Title>{photo.title}</Card.Title>
@@ -93,7 +93,64 @@ export default function Homepage() {
             </Col>
             <Col md={2}>
                 <div className="sider rounded mt-3">
-                    Sider
+                    <h4>Tags</h4>
+                    <ul style={{ listStyle: 'none' }}>
+                        <li>
+                            <Form.Check
+                                label="All"
+                                name="tags"
+                                type="radio"
+                                value={"all"}
+                                defaultChecked
+                                onClick={e => setCurrentTag(e.target.value)}
+                            />
+                        </li>
+                        <li>
+                            <Form.Check
+                                label="New"
+                                name="tags"
+                                type="radio"
+                                value={"new"}
+                                onClick={e => setCurrentTag(e.target.value)}
+                            />
+                        </li>
+                        <li>
+                            <Form.Check
+                                label="Hot"
+                                name="tags"
+                                type="radio"
+                                value={"hot"}
+                                onClick={e => setCurrentTag(e.target.value)}
+                            />
+                        </li>
+                        <li>
+                            <Form.Check
+                                label="Summer"
+                                name="tags"
+                                type="radio"
+                                value={"summer"}
+                                onClick={e => setCurrentTag(e.target.value)}
+                            />
+                        </li>
+                        <li>
+                            <Form.Check
+                                label="Cold"
+                                name="tags"
+                                type="radio"
+                                value={"cold"}
+                                onClick={e => setCurrentTag(e.target.value)}
+                            />
+                        </li>
+                        <li>
+                            <Form.Check
+                                label="Natural"
+                                name="tags"
+                                type="radio"
+                                value={"natural"}
+                                onClick={e => setCurrentTag(e.target.value)}
+                            />
+                        </li>
+                    </ul>
                 </div>
             </Col>
         </Row>

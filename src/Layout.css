@@ -44,6 +44,7 @@ body {
     background-color: aliceblue;
     min-height: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 8px;
 }
 
 .menu {
@@ -64,4 +65,11 @@ body {
 
 .search-bar {
     width: 200px;
+}
+
+.photo-card {
+    width: 18rem;
+    height: 18rem !important;
+    margin-top: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
