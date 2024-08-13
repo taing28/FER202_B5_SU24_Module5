@@ -1,0 +1,168 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "userId": 1,
+            "name": "Johnathan Joestar",
+            "account": {
+                "email": "jojo@gmail.com",
+                "password": "abc@123",
+                "activeCode": "ABCDEFXXX",
+                "isActive": false
+            },
+            "address": {
+                "street": "Trung Kinh",
+                "city": "Ha Noi",
+                "zipCode": "10000"
+            }
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "name": "Marie Joey",
+            "account": {
+                "email": "Mj123@gmail.com",
+                "password": "abc@123",
+                "activeCode": "",
+                "isActive": true
+            },
+            "address": {
+                "street": "Trinh Van Bo",
+                "city": "Ha Noi",
+                "zipCode": "10000"
+            }
+        }
+    ],
+    "albums": [
+        {
+            "id": 1,
+            "albumId": 1,
+            "description": "Summer album",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "albumId": 2,
+            "description": "Spring album",
+            "userId": 1
+        }
+    ],
+    "photos": [
+        {
+            "id": 1,
+            "photoId": 1,
+            "title": "Photo 1",
+            "image": {
+                "url": ["p1.png", "p1_1.png", "p1_2.png","p1_3.png"],
+                "thumbnail": "p11.png"
+            },
+            "albumId": 1,
+            "tags": [
+                "summer",
+                "hot",
+                "new"
+            ]
+        },
+        {
+            "id": 2,
+            "photoId": 2,
+            "title": "Photo 2",
+            "image": {
+                "url": ["p2.png"],
+                "thumbnail": "p21.png"
+            },
+            "albumId": 1,
+            "tags": [
+                "natural",
+                "hot",
+                "su"
+            ]
+        },
+        {
+            "id": 3,
+            "photoId": 3,
+            "title": "Photo 3",
+            "image": {
+                "url": ["p3.png"],
+                "thumbnail": "p31.png"
+            },
+            "albumId": 2,
+            "tags": [
+                "cold",
+                "new"
+            ]
+        },
+        {
+            "id": 4,
+            "photoId": 4,
+            "title": "Photo 4",
+            "image": {
+                "url": ["p4.png"],
+                "thumbnail": "p41.png"
+            },
+            "albumId": 2,
+            "tags": [
+                "natural",
+                "hot"
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "photoId": 1,
+            "userId": 1,
+            "text": "Very Beautiful",
+            "rate": 4
+        },
+        {
+            "id": 2,
+            "photoId": 1,
+            "userId": 2,
+            "text": "Nothing special",
+            "rate": 2
+        },
+        {
+            "id": 3,
+            "photoId": 2,
+            "userId": 1,
+            "text": "Ugly af",
+            "rate": 1
+        },
+        {
+            "id": 4,
+            "photoId": 2,
+            "userId": 2,
+            "text": "Breathtaking",
+            "rate": 5
+        },
+        {
+            "id": 5,
+            "photoId": 3,
+            "userId": 1,
+            "text": "Beautiful",
+            "rate": 4
+        },
+        {
+            "id": 6,
+            "photoId": 3,
+            "userId": 2,
+            "text": "Pretty",
+            "rate": 3
+        },
+        {
+            "id": 7,
+            "photoId": 4,
+            "userId": 1,
+            "text": "Gyatt :P",
+            "rate": 5
+        },
+        {
+            "id": 8,
+            "photoId": 4,
+            "userId": 2,
+            "text": "",
+            "rate": 2
+        }
+    ]
+}
