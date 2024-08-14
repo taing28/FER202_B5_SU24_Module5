@@ -75,10 +75,10 @@ export default function Homepage() {
                             </Row>
                             <Row>
                                 {filteredPhotos?.map(photo => (
-                                    <Col key={photo.id} className="d-flex justify-content-center">
-                                        <Link to={`/photos/${photo.id}`} style={{ textDecoration: 'none' }}>
+                                    <Col md={3} key={photo.id} className="d-flex justify-content-center">
+                                        <Link to={`/photos/${photo.photoId}`} style={{ textDecoration: 'none' }}>
                                             <Card className="photo-card">
-                                                <Card.Img variant="top" src={photo.image.thumbnail} />
+                                                <Card.Img variant="top" src={"assets/images/"+photo.image.thumbnail} />
                                                 <Card.Body>
                                                     <Card.Title>{photo.title}</Card.Title>
                                                 </Card.Body>

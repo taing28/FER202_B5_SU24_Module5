@@ -1,196 +1,263 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "userId": 1,
-            "name": "Johnathan Joestar",
-            "account": {
-                "email": "jojo@gmail.com",
-                "password": "abc@123",
-                "activeCode": "ABCDEFXXX",
-                "isActive": false
-            },
-            "address": {
-                "street": "Trung Kinh",
-                "city": "Ha Noi",
-                "zipCode": "10000"
-            }
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "name": "Marie Joey",
-            "account": {
-                "email": "Mj123@gmail.com",
-                "password": "abc@123",
-                "activeCode": "",
-                "isActive": true
-            },
-            "address": {
-                "street": "Trinh Van Bo",
-                "city": "Ha Noi",
-                "zipCode": "10000"
-            }
-        }
-    ],
-    "albums": [
-        {
-            "id": 1,
-            "albumId": 1,
-            "description": "Summer album",
-            "userId": 1
-        },
-        {
-            "id": 2,
-            "albumId": 2,
-            "description": "Spring album",
-            "userId": 1
-        },
-        {
-            "id":3,
-            "albumId":3,
-            "description":"Fall album",
-            "userId":1
-        }
-    ],
-    "photos": [
-        {
-            "id": 1,
-            "photoId": 1,
-            "title": "Photo 1",
-            "image": {
-                "url": ["https://dailylife.com/cdn/shop/articles/7-reasons-why-summer-is-good-for-your-body-feature-770X513.jpg?v=1698249448&width=2048", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNpIEE-ylHQ16v-LK6_47MPRL3B9C9HW0EDQ&s", "https://content.thriveglobal.com/wp-content/uploads/2020/06/summer.jpg","https://as1.ftcdn.net/v2/jpg/01/07/68/98/1000_F_107689864_aDRzRTm4JYIF0AP8uTcM46Lu8ayQ397U.jpg"],
-                "thumbnail": "https://dailylife.com/cdn/shop/articles/7-reasons-why-summer-is-good-for-your-body-feature-770X513.jpg?v=1698249448&width=2048"
-            },
-            "albumId": 1,
-            "tags": [
-                "summer",
-                "hot",
-                "new"
-            ]
-        },
-        {
-            "id": 2,
-            "photoId": 2,
-            "title": "Photo 2",
-            "image": {
-                "url": ["https://www.almanac.com/sites/default/files/users/AlmanacStaffArchive/sunflower-field-summer_full_width.jpg"],
-                "thumbnail": "https://wallpapers.com/images/featured/summer-pictures-nyv022soo0r5p1sq.jpg"
-            },
-            "albumId": 1,
-            "tags": [
-                "natural",
-                "hot",
-                "summer"
-            ]
-        },
-        {
-            "id": 3,
-            "photoId": 3,
-            "title": "Photo 3",
-            "image": {
-                "url": ["https://static.scientificamerican.com/sciam/cache/file/642B68EB-E034-456C-AE81B2D92440BB27_source.jpg?w=600", "https://images2.minutemediacdn.com/image/upload/c_crop,w_2119,h_1191,x_0,y_152/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gnwne8bpf2ttr44mz9.jpg"],
-                "thumbnail": "https://static.scientificamerican.com/sciam/cache/file/642B68EB-E034-456C-AE81B2D92440BB27_source.jpg?w=600"
-            },
-            "albumId": 2,
-            "tags": [
-                "cold",
-                "new"
-            ]
-        },
-        {
-            "id": 4,
-            "photoId": 4,
-            "title": "Photo 4",
-            "image": {
-                "url": ["https://t4.ftcdn.net/jpg/07/26/29/47/360_F_726294795_NqUKMyGvNDuGMdFtGVs4Js1JKKNM53Wh.jpg", "https://png.pngtree.com/thumb_back/fw800/background/20231224/pngtree-beautiful-spring-nature-wallpaper-image_15560300.jpg","https://media.istockphoto.com/id/1130739032/photo/areuse-river-in-the-neuch%C3%A2tel-jura-switzerland-panorama.jpg?s=612x612&w=0&k=20&c=zqxvpzPI04Py_cS2a7BjJSP0RVSgclZne4RrHOZfPzU="],
-                "thumbnail": "https://t4.ftcdn.net/jpg/07/26/29/47/360_F_726294795_NqUKMyGvNDuGMdFtGVs4Js1JKKNM53Wh.jpg"
-            },
-            "albumId": 2,
-            "tags": [
-                "natural",
-                "hot"
-            ]
-        },
-        {
-            "id": 5,
-            "photoId": 5,
-            "title": "Photo 5",
-            "image": {
-                "url": ["https://assets.artifactuprising.com/assets/campaigns/2022/Q3/09-26+Fall+Photo+Tips+Blog/Dirk-Dallas_Fall-Photo-Tips_Falling-Leaves.jpg", "https://www.usnews.com/dims4/USNEWS/7cb1461/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F7c%2F6e%2Fdb7e01ca4577b6cb5154fb9bd0f7%2Fnew-main-image-adirondacks-new-york-stock.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jbKRJyEpWSXZqS1-mhWWmwa6CPvP75nUJQ&s"],
-                "thumbnail": "https://cdn.theatlantic.com/media/img/photo/2022/10/fall-air-images-season/a01_1244081372-1/original.jpg"
-            },
-            "albumId": 3,
-            "tags": [
-                "new",
-                "hot",
-                "cold"
-            ]
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "photoId": 1,
-            "userId": 1,
-            "text": "Very Beautiful",
-            "rate": 4
-        },
-        {
-            "id": 2,
-            "photoId": 1,
-            "userId": 2,
-            "text": "Nothing special",
-            "rate": 2
-        },
-        {
-            "id": 3,
-            "photoId": 2,
-            "userId": 1,
-            "text": "Ugly af",
-            "rate": 1
-        },
-        {
-            "id": 4,
-            "photoId": 2,
-            "userId": 2,
-            "text": "Breathtaking",
-            "rate": 5
-        },
-        {
-            "id": 5,
-            "photoId": 3,
-            "userId": 1,
-            "text": "Beautiful",
-            "rate": 4
-        },
-        {
-            "id": 6,
-            "photoId": 3,
-            "userId": 2,
-            "text": "Pretty",
-            "rate": 3
-        },
-        {
-            "id": 7,
-            "photoId": 4,
-            "userId": 1,
-            "text": "Gyatt :P",
-            "rate": 5
-        },
-        {
-            "id": 8,
-            "photoId": 4,
-            "userId": 2,
-            "text": "",
-            "rate": 2
-        },
-        {
-            "id":9,
-            "photoId": 5,
-            "userId": 2,
-            "text": "Wonderful",
-            "rate": 5
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Johnathan Joestar",
+      "account": {
+        "email": "jojo@gmail.com",
+        "password": "abc@123",
+        "activeCode": "ABCDEFXXX",
+        "isActive": false
+      },
+      "address": {
+        "street": "Trung Kinh",
+        "city": "Ha Noi",
+        "zipCode": "10000"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Marie Joey",
+      "account": {
+        "email": "Mj123@gmail.com",
+        "password": "abc@123",
+        "activeCode": "",
+        "isActive": true
+      },
+      "address": {
+        "street": "Trinh Van Bo",
+        "city": "Ha Noi",
+        "zipCode": "10000"
+      }
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "name": "Monkey Alex",
+      "account": {
+        "email": "Alex@gmail.com",
+        "password": "abc@123",
+        "activeCode": "",
+        "isActive": true
+      },
+      "address": {
+        "street": "Hoang Dao Thuy",
+        "city": "Ha Noi",
+        "zipCode": "10000"
+      }
+    },
+    {
+      "userId": 4,
+      "name": "Test2",
+      "account": {
+        "email": "test2@gmail.com",
+        "password": "321",
+        "activeCode": "",
+        "isActive": false
+      },
+      "address": {
+        "street": "Tran Duy Hung",
+        "city": "Ha Noi",
+        "zipCode": "123"
+      },
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "name": "Test3",
+      "account": {
+        "email": "test3@gmail.com",
+        "password": "1",
+        "activeCode": "0.8471734822211516",
+        "isActive": false
+      },
+      "address": {
+        "street": "Hang Bong",
+        "city": "Ha Noi",
+        "zipCode": "1000"
+      },
+      "id": 5
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "albumId": 1,
+      "description": "Summer album",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "albumId": 2,
+      "description": "Spring album",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "albumId": 3,
+      "description": "Fall album",
+      "userId": 1
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "photoId": 1,
+      "title": "Photo 1",
+      "image": {
+        "url": [
+          "p11.jpg",
+          "p12.jpg",
+          "p13.jpg",
+          "p1.jpg"
+        ],
+        "thumbnail": "p1.jpg"
+      },
+      "albumId": 1,
+      "tags": [
+        "summer",
+        "hot",
+        "new"
+      ]
+    },
+    {
+      "id": 2,
+      "photoId": 2,
+      "title": "Photo 2",
+      "image": {
+        "url": [
+          "p21",
+          "p22"
+        ],
+        "thumbnail": "p2.jpg"
+      },
+      "albumId": 1,
+      "tags": [
+        "natural",
+        "hot",
+        "summer"
+      ]
+    },
+    {
+      "id": 3,
+      "photoId": 3,
+      "title": "Photo 3",
+      "image": {
+        "url": [
+          "p31.jpg",
+          "p32.jpg"
+        ],
+        "thumbnail": "p3.jpg"
+      },
+      "albumId": 2,
+      "tags": [
+        "cold",
+        "new"
+      ]
+    },
+    {
+      "id": 4,
+      "photoId": 4,
+      "title": "Photo 4",
+      "image": {
+        "url": [
+          "p41.jpg",
+          "p42.jpg",
+          "p43.jpg"
+        ],
+        "thumbnail": "p4.png"
+      },
+      "albumId": 2,
+      "tags": [
+        "natural",
+        "hot"
+      ]
+    },
+    {
+      "id": 5,
+      "photoId": 5,
+      "title": "Photo 5",
+      "image": {
+        "url": [
+          "p51.jpg",
+          "p52.jpg",
+          "p53.jpg"
+        ],
+        "thumbnail": "p5.jpg"
+      },
+      "albumId": 3,
+      "tags": [
+        "new",
+        "hot",
+        "cold"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "photoId": 1,
+      "userId": 1,
+      "text": "Very Beautiful",
+      "rate": 4
+    },
+    {
+      "id": 2,
+      "photoId": 1,
+      "userId": 2,
+      "text": "Nothing special",
+      "rate": 2
+    },
+    {
+      "id": 3,
+      "photoId": 2,
+      "userId": 1,
+      "text": "Ugly af",
+      "rate": 1
+    },
+    {
+      "id": 4,
+      "photoId": 2,
+      "userId": 2,
+      "text": "Breathtaking",
+      "rate": 5
+    },
+    {
+      "id": 5,
+      "photoId": 3,
+      "userId": 1,
+      "text": "Beautiful",
+      "rate": 4
+    },
+    {
+      "id": 6,
+      "photoId": 3,
+      "userId": 2,
+      "text": "Pretty",
+      "rate": 3
+    },
+    {
+      "id": 7,
+      "photoId": 4,
+      "userId": 1,
+      "text": "Gyatt :P",
+      "rate": 5
+    },
+    {
+      "id": 8,
+      "photoId": 4,
+      "userId": 2,
+      "text": "",
+      "rate": 2
+    },
+    {
+      "id": 9,
+      "photoId": 5,
+      "userId": 2,
+      "text": "Wonderful",
+      "rate": 5
+    }
+  ]
 }
