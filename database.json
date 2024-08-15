@@ -85,19 +85,19 @@
     {
       "id": 1,
       "albumId": 1,
-      "description": "Summer album",
+      "title": "Summer album",
       "userId": 1
     },
     {
       "id": 2,
       "albumId": 2,
-      "description": "Spring album",
+      "title": "Spring album",
       "userId": 1
     },
     {
       "id": 3,
       "albumId": 3,
-      "description": "Fall album",
+      "title": "Fall album",
       "userId": 1
     }
   ],
